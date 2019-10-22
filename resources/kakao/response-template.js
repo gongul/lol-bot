@@ -28,7 +28,7 @@ exports.ingameTemplate = () => {
             "values": [
                 {
                     "name": "gameInfo",
-                    "lifeSpan": 1,
+                    "lifeSpan": 5,
                     "params": {
                         "participants": null
                     }
