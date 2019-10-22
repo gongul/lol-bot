@@ -1,0 +1,9 @@
+# node_module
+node_modules
+
+# log
+*.log
+
+
+# secret file
+resources/riot/api-token.json
