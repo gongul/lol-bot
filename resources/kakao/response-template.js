@@ -26,13 +26,7 @@ exports.ingameTemplate = () => {
         "version": "2.0",
         "context": {
             "values": [
-                {
-                    "name": "gameInfo",
-                    "lifeSpan": 5,
-                    "params": {
-                        "participants": null
-                    }
-                },
+               
             ]   
         },
         "template": {
@@ -49,10 +43,16 @@ exports.ingameTemplate = () => {
             ], 
             "quickReplies": [
                 {
-                    "label": "같이 게임하는 사람들 확인해보기",
+                    "label": "레드팀",
+                    "action": "block",
+                    "blockId": "5daf13a0ffa7480001db40ee",
+                    "messageText": "레드팀"
+                },
+                {
+                    "label": "블루팀",
                     "action": "block",
                     "blockId": "5da413c48192ac0001158593",
-                    "messageText": "같이 게임하는 사람들 확인해보기"
+                    "messageText": "블루팀"
                 },
                 {
                     "label": "게임 중인지 확인해보기",
@@ -68,19 +68,13 @@ exports.ingameTemplate = () => {
 exports.playersTemplate = () => {
     return {
         "version": "2.0",
+        "context": {
+            "values": [
+            ]   
+        },
         "template": {
             "outputs": [
-                {
-                    "listCard": {
-                        "header": {
-                            "title": "",
-                            "imageUrl": ""
-                        },
-                        "items": [
-                          
-                        ]
-                    }
-                }
+               
             ], 
             "quickReplies": [
                 {
