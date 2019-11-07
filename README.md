@@ -1,5 +1,5 @@
 # lol-bot 
-현재 카카오톡 플러스친구 봇으로 활동하고 있는 "롤군"의 소스코드(REST API Server) 입니다. 
+현재 카카오톡 플러스친구 봇으로 활동하고 있는 "롤군"의 소스코드(REST API Server) 입니다. <br/>
 https://pf.kakao.com/_vExkDT
 
 ## Overview
